@@ -12,7 +12,6 @@ import java.util.Optional;
 public class ProductService {
     @Autowired
     ProductRepository productRepository;
-
     public Product save(Product product) {
         return productRepository.save(product);
     }
